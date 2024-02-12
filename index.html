@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Cifrado y Descifrado AES</title>
+ 
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="" style="background-color: black;">
+
+    <div class=" formulario container  d-flex align-items-center justify-content-center ">
+<div class="  mt-5">
+  <h1> Actividad B3. Aplicación de AES</h1>
+    <h2>Cifrado con AES</h2>
+    <form id="cifradoForm">
+      <div class="form-group">
+        <label for="claveCifrado">Clave de Cifrado</label>
+        <input type="text" class="form-control" id="claveCifrado" placeholder="Introduce la clave de cifrado">
+      </div>
+      <div class="form-group">
+        <label for="mensajeOriginal">Mensaje Original</label>
+        <textarea class="form-control" id="mensajeOriginal" rows="3" placeholder="Introduce el mensaje original"></textarea>
+      </div>
+      <button type="button" class="btn btn-primary" id="cifrarBtn">Cifrar con AES</button>
+    </form>
+  
+    <div class="mt-3">
+      <h3>Texto Cifrado</h3>
+      <p id="textoCifrado"></p>
+    </div>
+  
+    <h2>Descifrado con AES</h2>
+    <form id="descifradoForm">
+      <div class="form-group">
+        <label for="claveDescifrado">Clave de Descifrado</label>
+        <input type="text" class="form-control" id="claveDescifrado" placeholder="Introduce la clave de descifrado">
+      </div>
+      <button type="button" class="btn btn-primary" id="descifrarBtn">Descifrar con AES</button>
+    </form>
+  
+    <div class="mt-3">
+      <h3>Texto Descifrado</h3>
+      <p id="textoDescifrado"></p>
+      <p id="claveIncorrecta" class="text-danger"></p> 
+    </div>
+  </div>
+
+
+
+
+
+</div>
+
+<footer class="footer w-100 p-5 d-flex align-items-center justify-content-center">
+  Adrian Rivas Escarcega #215983 - Universidad Autonoma de Ciudad Juarez
+</footer>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script> </script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+ h1,h2,h3,h4, p,label, footer {
+    color:  white;
+ }
+
+ body{
+    background-image: url("https://i.redd.it/ngu5ofssout01.png");
+    min-height: 100vh;
+ }
+
+ .formulario{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: black;
+    width: 50%;
+    padding: 3em;
+}
+
+ .footer{
+    background-color: black;
+ }
